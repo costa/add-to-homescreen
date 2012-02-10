@@ -142,7 +142,7 @@ var addToHome = (function (w) {
 					touchIcon = icons[i].href;
 				}
 			}
-
+			touchIcon = touchIcon || icons[l - 1].href;
 			touchIcon = '<span style="background-image:url(' + touchIcon + ')" class="addToHomeTouchIcon"></span>';
 		}
 
